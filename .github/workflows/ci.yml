@@ -1,5 +1,8 @@
 name: CI Pipeline for Titanic ML API
 
+# Add this line to customize the title that shows up on GitHub
+run-name: "Titanic ML Model CI & Docker Build (#${{ github.run_number }})"
+
 on:
   push:
     branches: [ main ]
